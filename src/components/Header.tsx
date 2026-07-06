@@ -48,7 +48,7 @@ export function Header() {
           className="flex items-baseline gap-2 font-display text-lg font-semibold tracking-tightest"
           aria-label={`${site.name} — ${t.nav.home}`}
         >
-          <span className="text-red">T&amp;Q</span>
+          <span className="text-red text-2xl sm:text-lg">T&amp;Q</span>
           <span
             className={`hidden sm:inline ${onDark ? "text-paper" : "text-ink"}`}
           >

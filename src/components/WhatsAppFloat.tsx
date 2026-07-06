@@ -31,19 +31,24 @@ export function WhatsAppFloat() {
   // (everything but the home page) show it straight away.
   const [pastHero, setPastHero] = useState(false);
 
+  // Re-run on every route change: this component lives in the persistent layout
+  // and never remounts, so navigating home → away → home replaces the hero DOM
+  // node. Without re-observing, the button would show over the new hero.
   useEffect(() => {
     const hero = document.getElementById("hero");
     if (!hero) {
       setPastHero(true);
       return;
     }
+    // Hide again while we (re)observe the fresh hero, then let scroll decide.
+    setPastHero(false);
     const observer = new IntersectionObserver(
       ([entry]) => setPastHero(!entry.isIntersecting),
       { threshold: 0 },
     );
     observer.observe(hero);
     return () => observer.disconnect();
-  }, []);
+  }, [pathname]);
 
   // No floating WhatsApp on the contact page — the full form/details live there.
   if (pathname === "/contact") return null;
