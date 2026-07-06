@@ -8,3 +8,7 @@ npm-debug.log*
 .env*
 .vercel
 next-env.d.ts.bak
+
+# Local-only: forces PowerShell as npm script-shell because the folder
+# name contains "&". Not valid on Linux/Vercel, so keep it out of the repo.
+.npmrc
