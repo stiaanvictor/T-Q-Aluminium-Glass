@@ -237,6 +237,7 @@ const en = {
     intro:
       "Fill in the form and press send — WhatsApp opens with your message already filled in. Or contact us directly using the details alongside.",
     directEyebrow: "Direct contact",
+    contactPersonLabel: "Contact person",
     callLabel: "Call or WhatsApp",
     emailLabel: "Email",
     areaLabel: "Service area",
@@ -499,6 +500,7 @@ const af: Dict = {
     intro:
       "Vul die vorm in en druk stuur — WhatsApp maak oop met jou boodskap reeds ingevul. Of kontak ons direk met die besonderhede hier langsaan.",
     directEyebrow: "Direkte kontak",
+    contactPersonLabel: "Kontakpersoon",
     callLabel: "Bel of WhatsApp",
     emailLabel: "E-pos",
     areaLabel: "Diensgebied",

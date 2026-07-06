@@ -1,6 +1,6 @@
 "use client";
 
-import { Phone, Mail, MapPin, Facebook } from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, User } from "lucide-react";
 import { PageHeader } from "@/components/PageHeader";
 import { Reveal } from "@/components/Reveal";
 import { ContactForm } from "@/components/ContactForm";
@@ -31,6 +31,11 @@ export default function KontakPage() {
               <p className="eyebrow">{t.contact.directEyebrow}</p>
 
               <ul className="mt-8 space-y-8">
+                <ContactItem
+                  icon={<User strokeWidth={1.5} className="h-5 w-5" />}
+                  label={t.contact.contactPersonLabel}
+                  value="Kiyaam Solomons"
+                />
                 <ContactItem
                   icon={<Phone strokeWidth={1.5} className="h-5 w-5" />}
                   label={t.contact.callLabel}
