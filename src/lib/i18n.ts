@@ -28,7 +28,13 @@ const en = {
   langName: "English",
   location: "Cape Town, Western Cape",
 
-  nav: { home: "Home", services: "Services", about: "About", contact: "Contact" },
+  nav: {
+    home: "Home",
+    services: "Services",
+    gallery: "Gallery",
+    about: "About",
+    contact: "Contact",
+  },
 
   cta: {
     quote: "Get a Quote",
@@ -70,6 +76,9 @@ const en = {
     processEyebrow: "How it works",
     processHeading: "From first conversation to final installation.",
     testimonialsEyebrow: "What clients say",
+    galleryEyebrow: "Our work",
+    galleryHeading: "Recent projects.",
+    galleryCta: "View gallery",
     ctaHeading: "Let's build something that lasts.",
   },
 
@@ -185,6 +194,13 @@ const en = {
     ctaHeading: "Not sure which option is best? We'll help you choose.",
   },
 
+  gallery_page: {
+    eyebrow: "Our work",
+    title: "Gallery",
+    intro:
+      "A look at recent aluminium and glass projects — doors, windows, sliding doors and more, installed for homes and businesses across Cape Town.",
+  },
+
   about: {
     eyebrow: "About us",
     title: "Aluminium & glass, built with care.",
@@ -274,7 +290,13 @@ const af: Dict = {
   langName: "Afrikaans",
   location: "Kaapstad, Wes-Kaap",
 
-  nav: { home: "Tuis", services: "Dienste", about: "Oor Ons", contact: "Kontak" },
+  nav: {
+    home: "Tuis",
+    services: "Dienste",
+    gallery: "Galery",
+    about: "Oor Ons",
+    contact: "Kontak",
+  },
 
   cta: {
     quote: "Kry 'n Kwotasie",
@@ -316,6 +338,9 @@ const af: Dict = {
     processEyebrow: "Hoe dit werk",
     processHeading: "Van eerste gesprek tot finale installasie.",
     testimonialsEyebrow: "Wat kliënte sê",
+    galleryEyebrow: "Ons werk",
+    galleryHeading: "Onlangse projekte.",
+    galleryCta: "Sien galery",
     ctaHeading: "Kom ons bou iets wat hou.",
   },
 
@@ -429,6 +454,13 @@ const af: Dict = {
       "Alles in aluminium en glas — op maat gemaak en netjies geïnstalleer. Kies 'n diens hieronder of vra 'n kwotasie aan.",
     ask: "Vra oor",
     ctaHeading: "Nie seker watter opsie die beste is nie? Ons help jou kies.",
+  },
+
+  gallery_page: {
+    eyebrow: "Ons werk",
+    title: "Galery",
+    intro:
+      "'n Kyk na onlangse aluminium- en glasprojekte — deure, vensters, skuifdeure en meer, geïnstalleer vir huise en besighede regoor Kaapstad.",
   },
 
   about: {

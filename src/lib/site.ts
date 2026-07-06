@@ -14,9 +14,13 @@ export const site = {
 };
 
 // Navigation: stable hrefs + a dictionary key for the label.
-export const nav: { key: "home" | "services" | "about" | "contact"; href: string }[] = [
+export const nav: {
+  key: "home" | "services" | "gallery" | "about" | "contact";
+  href: string;
+}[] = [
   { key: "home", href: "/" },
   { key: "services", href: "/services" },
+  { key: "gallery", href: "/gallery" },
   { key: "about", href: "/about" },
   { key: "contact", href: "/contact" },
 ];

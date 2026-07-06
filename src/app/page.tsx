@@ -6,7 +6,9 @@ import { ArrowUpRight } from "lucide-react";
 import { Hero } from "@/components/Hero";
 import { ServiceRow } from "@/components/ServiceRow";
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/Reveal";
+import { MediaGrid } from "@/components/MediaGrid";
 import { images } from "@/lib/images";
+import { homeGallery } from "@/lib/gallery";
 import { serviceMeta } from "@/lib/site";
 import { useLang } from "@/components/LanguageProvider";
 
@@ -152,6 +154,31 @@ export default function HomePage() {
               </StaggerItem>
             ))}
           </StaggerGroup>
+        </div>
+      </section>
+
+      {/* Work gallery preview */}
+      <section className="shell py-24 md:py-32">
+        <Reveal className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p className="eyebrow">{t.home.galleryEyebrow}</p>
+            <h2 className="mt-5 max-w-2xl font-display text-4xl font-semibold leading-[1.05] tracking-tightest md:text-5xl">
+              {t.home.galleryHeading}
+            </h2>
+          </div>
+          <Link
+            href="/gallery"
+            className="link-sweep inline-flex items-center gap-1 font-sans text-sm font-medium"
+          >
+            {t.home.galleryCta}{" "}
+            <ArrowUpRight className="h-4 w-4" strokeWidth={1.5} />
+          </Link>
+        </Reveal>
+        <div className="mt-12">
+          <MediaGrid
+            items={homeGallery}
+            gridClassName="grid grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4"
+          />
         </div>
       </section>
 

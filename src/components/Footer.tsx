@@ -92,7 +92,7 @@ export function Footer() {
 
         <div className="mt-16 flex flex-col gap-3 border-t border-[color:var(--hairline-invert)] pt-8 font-sans text-xs text-paper/45 sm:flex-row sm:items-center sm:justify-between">
           <p>
-            Â© {new Date().getFullYear()} {site.name}. {t.footer.rights}
+            © {new Date().getFullYear()} {site.name}. {t.footer.rights}
           </p>
           <p>{t.footer.tagline}</p>
         </div>
