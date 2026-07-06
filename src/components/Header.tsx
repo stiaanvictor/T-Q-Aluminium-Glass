@@ -1,5 +1,6 @@
 ﻿"use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -45,10 +46,17 @@ export function Header() {
       <div className="shell flex h-20 items-center justify-between">
         <Link
           href="/"
-          className="flex items-baseline gap-2 font-display text-lg font-semibold tracking-tightest"
+          className="flex items-center gap-2.5 font-display text-lg font-semibold tracking-tightest"
           aria-label={`${site.name} — ${t.nav.home}`}
         >
-          <span className="text-red text-2xl sm:text-lg">T&amp;Q</span>
+          <Image
+            src="/logo.png"
+            alt=""
+            width={40}
+            height={40}
+            priority
+            className="h-9 w-9"
+          />
           <span
             className={`hidden sm:inline ${onDark ? "text-paper" : "text-ink"}`}
           >
@@ -70,10 +78,10 @@ export function Header() {
                 className={[
                   "link-sweep font-sans text-sm font-medium tracking-wide transition-colors",
                   active
-                    ? "text-red"
+                    ? "text-brand"
                     : onDark
-                      ? "text-paper hover:text-red"
-                      : "text-ink hover:text-red",
+                      ? "text-paper hover:text-brand"
+                      : "text-ink hover:text-brand",
                 ].join(" ")}
               >
                 {t.nav[item.key]}
@@ -111,8 +119,17 @@ export function Header() {
             transition={{ duration: 0.25 }}
           >
             <div className="shell flex h-20 items-center justify-between">
-              <span className="font-display text-lg font-semibold">
-                <span className="text-red">T&amp;Q</span> Aluminium &amp; Glass
+              <span className="flex items-center gap-2.5">
+                <Image
+                  src="/logo.png"
+                  alt=""
+                  width={36}
+                  height={36}
+                  className="h-8 w-8"
+                />
+                <span className="font-display text-lg font-semibold">
+                  Aluminium &amp; Glass
+                </span>
               </span>
               <button
                 type="button"

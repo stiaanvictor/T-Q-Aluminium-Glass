@@ -50,7 +50,7 @@ export function Hero() {
         >
           {t.hero.line1}
           <br />
-          <span className="text-red">{t.hero.red}</span> {t.hero.line2}
+          <span className="text-brand">{t.hero.red}</span> {t.hero.line2}
         </motion.h1>
 
         <motion.p

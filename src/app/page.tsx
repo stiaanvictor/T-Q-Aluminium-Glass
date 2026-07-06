@@ -84,7 +84,7 @@ export default function HomePage() {
                 {t.home.why.map((item) => (
                   <StaggerItem key={item.t} className="py-6 first:pt-0">
                     <div className="flex gap-6">
-                      <span className="mt-1 h-px w-8 flex-none bg-red" />
+                      <span className="mt-1 h-px w-8 flex-none bg-brand" />
                       <div>
                         <h3 className="font-display text-xl font-semibold tracking-tightest">
                           {item.t}
@@ -138,7 +138,7 @@ export default function HomePage() {
             {t.testimonials.map((item) => (
               <StaggerItem key={item.name}>
                 <div className="flex h-full flex-col">
-                  <span className="font-display text-5xl leading-none text-red">
+                  <span className="font-display text-5xl leading-none text-brand">
                     &ldquo;
                   </span>
                   <blockquote className="mt-4 font-display text-xl font-medium leading-snug tracking-tightest text-ink">

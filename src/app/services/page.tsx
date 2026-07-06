@@ -49,7 +49,7 @@ export default function DienstePage() {
                       <li key={p} className="flex items-start gap-3">
                         <Check
                           strokeWidth={2}
-                          className="mt-0.5 h-5 w-5 flex-none text-red"
+                          className="mt-0.5 h-5 w-5 flex-none text-brand"
                         />
                         <span className="font-sans text-sm text-ink">{p}</span>
                       </li>

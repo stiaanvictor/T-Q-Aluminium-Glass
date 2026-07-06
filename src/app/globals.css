@@ -21,7 +21,7 @@
   }
 
   ::selection {
-    background: #d73532;
+    background: #1f6fb2;
     color: #f6f5f2;
   }
 
@@ -32,7 +32,7 @@
 
   /* Focus visibility for keyboard users */
   :focus-visible {
-    outline: 2px solid #d73532;
+    outline: 2px solid #1f6fb2;
     outline-offset: 3px;
   }
 
@@ -102,10 +102,10 @@
     padding: 0 1.75rem;
   }
   .btn-primary {
-    @apply btn bg-red text-paper;
+    @apply btn bg-brand text-paper;
   }
   .btn-primary:hover {
-    @apply bg-red-600;
+    @apply bg-brand-600;
   }
   .btn-ghost {
     @apply btn text-ink;

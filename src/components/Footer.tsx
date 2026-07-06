@@ -1,5 +1,6 @@
 ﻿"use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { Facebook } from "lucide-react";
 import { nav, serviceMeta, site } from "@/lib/site";
@@ -14,8 +15,17 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-12">
           {/* Brand + statement */}
           <div className="md:col-span-5">
-            <div className="font-display text-2xl font-semibold tracking-tightest">
-              <span className="text-red">T&amp;Q</span> Aluminium &amp; Glass
+            <div className="flex items-center gap-3">
+              <Image
+                src="/logo.png"
+                alt={site.name}
+                width={48}
+                height={48}
+                className="h-11 w-11"
+              />
+              <span className="font-display text-2xl font-semibold tracking-tightest">
+                Aluminium &amp; Glass
+              </span>
             </div>
             <p className="mt-5 max-w-sm font-sans text-sm leading-relaxed text-paper/65">
               {t.footer.statement}

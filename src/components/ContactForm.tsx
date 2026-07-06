@@ -55,7 +55,7 @@ export function ContactForm() {
           id="diens"
           value={diens}
           onChange={(e) => setDiens(e.target.value)}
-          className="w-full appearance-none border-0 border-b border-[color:var(--hairline-strong)] bg-transparent pb-3 font-sans text-lg text-ink outline-none transition-colors focus:border-red"
+          className="w-full appearance-none border-0 border-b border-[color:var(--hairline-strong)] bg-transparent pb-3 font-sans text-lg text-ink outline-none transition-colors focus:border-brand"
         >
           <option value="">{t.form.servicePlaceholder}</option>
           {serviceMeta.map((s) => (
@@ -76,7 +76,7 @@ export function ContactForm() {
           onChange={(e) => setBoodskap(e.target.value)}
           rows={3}
           placeholder={t.form.detailsPlaceholder}
-          className="w-full resize-none border-0 border-b border-[color:var(--hairline-strong)] bg-transparent pb-3 font-sans text-lg text-ink outline-none transition-colors placeholder:text-muted/60 focus:border-red"
+          className="w-full resize-none border-0 border-b border-[color:var(--hairline-strong)] bg-transparent pb-3 font-sans text-lg text-ink outline-none transition-colors placeholder:text-muted/60 focus:border-brand"
         />
       </div>
 
@@ -121,7 +121,7 @@ function Field({
     <div>
       <label htmlFor={id} className="eyebrow mb-3 block">
         {label}
-        {required && <span className="text-red"> *</span>}
+        {required && <span className="text-brand"> *</span>}
       </label>
       <input
         id={id}
@@ -132,7 +132,7 @@ function Field({
         inputMode={inputMode}
         placeholder={placeholder}
         onChange={(e) => onChange(e.target.value)}
-        className="w-full border-0 border-b border-[color:var(--hairline-strong)] bg-transparent pb-3 font-sans text-lg text-ink outline-none transition-colors placeholder:text-muted/60 focus:border-red"
+        className="w-full border-0 border-b border-[color:var(--hairline-strong)] bg-transparent pb-3 font-sans text-lg text-ink outline-none transition-colors placeholder:text-muted/60 focus:border-brand"
       />
     </div>
   );

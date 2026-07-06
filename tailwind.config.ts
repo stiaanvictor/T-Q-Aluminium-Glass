@@ -5,7 +5,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Brand: near-black ink + a disciplined red accent, on warm paper.
+        // Brand: near-black ink + a disciplined blue accent (from the logo
+        // glass), on warm paper.
         ink: {
           DEFAULT: "#21231d",
           900: "#21231d",
@@ -14,9 +15,9 @@ const config: Config = {
         },
         paper: "#f6f5f2",
         bone: "#eeece7",
-        red: {
-          DEFAULT: "#d73532",
-          600: "#c22d2a",
+        brand: {
+          DEFAULT: "#1f6fb2",
+          600: "#185f99",
         },
         muted: "#6f716a",
       },

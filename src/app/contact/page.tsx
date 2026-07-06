@@ -83,7 +83,7 @@ function ContactItem({
 }) {
   const content = (
     <div className="flex items-start gap-4">
-      <span className="mt-1 flex-none text-red">{icon}</span>
+      <span className="mt-1 flex-none text-brand">{icon}</span>
       <div className="min-w-0">
         <p className="eyebrow">{label}</p>
         <p

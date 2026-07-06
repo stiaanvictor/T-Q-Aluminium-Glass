@@ -79,7 +79,7 @@ export default function OorOnsPage() {
           <StaggerGroup className="mt-14 grid gap-x-12 gap-y-12 md:grid-cols-3">
             {t.about.values.map((v) => (
               <StaggerItem key={v.t}>
-                <div className="border-t-2 border-red pt-6">
+                <div className="border-t-2 border-brand pt-6">
                   <h3 className="font-display text-2xl font-semibold tracking-tightest">
                     {v.t}
                   </h3>
