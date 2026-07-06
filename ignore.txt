@@ -1,0 +1,38 @@
+T&Q Aluminium & Glass
+I'll give the logo later, just use an icon from and icon libarary for now and skip favicon
+21231d and d73532
+Don't know how many years in business
+
+Services:
+Single & Double doors
+Renovation services
+Windows
+Palace sliding doors
+Roofing, Ceiling, Partitioning
+
+It is for anyone who needs their services
+They should fill in a form and then click the send button but it shouldn't send an email or save the response, it should take them to whatsapp with a ready to send message
+Cape Town
+
+Call/Whatsapp: +27 81 651 3353
+Email: tandqaluminiumandglass@gmail.com
+https://www.facebook.com/profile.php?id=61576158632684
+Don't have operating hours
+Yes but use placeholders for everything for now and odn't even put a gallery in
+Make ones up and make it sound real
+
+Home page, services, about, contact
+
+Sleek and modern/minimal
+Light mode
+Small animations
+Best typography
+
+And this is super super super important. DO NOT PUT EVERY SINGLE THING IN A STUPID LITTLE BOX WITH A BORDER AND BORDER RADIUS. There is nothing that looks quite as AI generated and shit as that. If I see one thing in a generic rounded box with a border looking like it was designed by an 8 year old i'm gonna be so angry
+
+Afrikaans only
+Domain name doesn't matter as you shouldn't do any SEO now and it's just local
+I already told you about the form
+
+Important:
+Just because I said that the website should be $10k doesn't mean that you should add a bunch of random stuff. It should be clean and professional. Also don't claim anything you don't know is true, only add stuff that is either true or would work for any business like this. And finally, make sure to use the ui-ux-pro-skill and your front end skill. Also use a decent amount of images as placeholders but also don't overdo it. And every damn thing doesn't have to be in a box with a border and border radius of 50%. 
