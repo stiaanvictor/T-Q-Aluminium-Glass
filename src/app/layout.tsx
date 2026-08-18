@@ -7,6 +7,7 @@ import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { LanguageProvider } from "@/components/LanguageProvider";
 import { Analytics } from "@vercel/analytics/next";
 import { site } from "@/lib/site";
+import Watermark from "./Watermark";
 
 const display = Bricolage_Grotesque({
   subsets: ["latin"],
@@ -86,6 +87,7 @@ export default function RootLayout({
           <Footer />
           <WhatsAppFloat />
         </LanguageProvider>
+        <Watermark />
         <Analytics />
       </body>
     </html>
